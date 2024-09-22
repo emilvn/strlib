@@ -1,12 +1,12 @@
 # strlib
 
-Build
+Build strlib + strlib_test
 
 ```bash
 ./build.bash
 ```
 
-Build and run
+Build and run tests
 
 ```bash
 ./run.bash

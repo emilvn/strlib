@@ -20,7 +20,7 @@ int main() {
     return 0;
 }
 
-
+// mini framework
 void run_test(const char *test_name, int (*test_func)()) {
     if (test_func()) {
         printf("%s: OK\n", test_name);
@@ -45,7 +45,7 @@ int assert_str_eq(const char *expected, const char *actual) {
     return strcmp(expected, actual) == 0;
 }
 
-// Test cases
+// tests
 int test_str_pad_start() {
     char dest[50];
     str_pad_start("Hello", 10, '*', dest);
