@@ -1,0 +1,15 @@
+void run_test(const char *test_name, int (*test_func)());
+int assert_eq(int expected, int actual);
+int assert_str_eq(const char *expected, const char *actual);
+int test_str_pad_start();
+int test_str_repeat();
+int test_str_slice();
+int test_str_starts_with();
+int test_str_substring();
+int test_str_to_lower();
+int test_str_to_upper();
+int test_str_trim();
+int test_str_trim_end();
+int test_str_trim_start();
+int test_str_value_of();
+int test_str_length();
